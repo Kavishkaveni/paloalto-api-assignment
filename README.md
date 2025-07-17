@@ -20,17 +20,18 @@ This project allows adding a security rule to the Palo Alto firewall using Flask
 **How to Run**
 
 1. Install dependencies:
-   bash
+   ```bash
    pip install flask requests
    
 2. Run the Flask app:
-   bash
+   ```bash
    python app.py
 
 3. Open in browser:
+   ```text
    http://127.0.0.1:5000
    
-4. Enter rule name and submit.
+5. Enter rule name and submit.
    You will see the API response and commit message.
 
 
