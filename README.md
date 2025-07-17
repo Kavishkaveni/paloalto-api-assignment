@@ -32,6 +32,7 @@ This project allows adding a security rule to the Palo Alto firewall using Flask
    http://127.0.0.1:5000
    
 5. Enter rule name and submit.
+
    API response and commit message will be displayed.
 
 
