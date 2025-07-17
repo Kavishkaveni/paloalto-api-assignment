@@ -3,9 +3,9 @@
 This project allows adding a security rule to the Palo Alto firewall using Flask and API.
 
 **Files**
-app.py      – Flask web app to input rule name.
-add_rule.py – Sends API request to add the rule.
-test_api.py – Tests API connectivity.
+  app.py      – Flask web app to input rule name.
+  add_rule.py – Sends API request to add the rule.
+  test_api.py – Tests API connectivity.
 
 **How to Run**
 
