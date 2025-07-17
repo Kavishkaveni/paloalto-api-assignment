@@ -1,8 +1,8 @@
-**Palo Alto API Assignment**
+# Palo Alto API Assignment
 
 This project allows adding a security rule to the Palo Alto firewall using Flask and API.
 
-**Files**
+## Files
   1. `test_api.py`  
 	  • This is your basic test script to check if you can connect to the firewall API and get a response (like device info).  
 	  • It’s useful to prove you tested the API connection works.
