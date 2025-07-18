@@ -4,17 +4,21 @@ This project allows adding a security rule to the Palo Alto firewall using Flask
 
 ## Files
   1. `test_api.py`  
-	  • This is your basic test script to check if you can connect to the firewall API and get a response (like device info).  
-	  • It’s useful to prove you tested the API connection works.
+	  • Test script to check connection with the firewall API and retrieve device information.
+          • Useful for validating the API connection.
 
-2. `add_rule.py`  
-	 • This script was your first version to add the security rule via API (without web UI).  
-	 • It directly sends the API request to add the rule and commit.  
-	 • You can include it to show you tried a standalone script approach.
 
-3. `app.py`  
-	 • This is the final version with web UI you built for the assignment.  
-	 • It lets user input the rule name on a webpage and adds + commits the rule using API calls.
+
+3. `add_rule.py`  
+	 •Initial script for adding a security rule via API without a web interface.
+	 •Directly sends the API request to add the rule and commit the changes.
+
+
+4. `app.py`  
+         •Final version with a web interface built using Flask.
+	 •Accepts a rule name through a form and performs rule addition and commit through API calls.
+
+
 
 
 ## How to Run
